@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Back to Opener Tab",
+  "version": "1.1.0",
+  "description": "在新标签页中一键返回来源标签页，并关闭当前标签页",
+  "permissions": [
+    "tabs",
+    "windows"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "返回来源标签页",
+    "default_icon": {
+      "16": "icons/icon16_disabled.png",
+      "32": "icons/icon32_disabled.png",
+      "48": "icons/icon48_disabled.png",
+      "128": "icons/icon128_disabled.png"
+    }
+  }
+}
